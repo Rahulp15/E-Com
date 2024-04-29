@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 public class ProductController {
 
-    ProductService productService;
+    private ProductService productService;
 
     public ProductController(ProductService productService){
         this.productService = productService;
