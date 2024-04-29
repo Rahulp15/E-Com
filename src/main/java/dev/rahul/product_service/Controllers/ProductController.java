@@ -3,7 +3,6 @@ package dev.rahul.product_service.Controllers;
 import dev.rahul.product_service.DTOS.CreateProductRequestDTO;
 import dev.rahul.product_service.Models.Product;
 import dev.rahul.product_service.Services.ProductService;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
